@@ -6,10 +6,10 @@ const Navbar = () => {
   const [open,setOpen]=useState(false );
   const menuLinks =[
   {name: "HOME", link:"#home"},
-  {name: "SOBRE", link:"#sobre"},
-  {name: "HABILIDADES", link:"#habilidades"},
-  {name: "PROJETOS", link:"#projetos"},
-  {name: "CONTATO", link:"#contato"},
+  {name: "SOBRE", link:"#about"},
+  {name: "HABILIDADES", link:"#skills"},
+  {name: "PROJETOS", link:"#projectx"},
+  {name: "CONTATO", link:"#hireme"},
 ];
 
   useEffect(()=>{
@@ -36,7 +36,7 @@ const Navbar = () => {
           {
             menuLinks?.map((menu,i)=>{
              return(
-              <li key={i} className="px-6 hover:text-cyan-600">
+              <li onClick={() => setOpen(false)} key={i} className="px-6 hover:text-cyan-600">
               <a href={menu?.link}>{menu?.name} </a>
             </li>
              )
@@ -57,7 +57,9 @@ const Navbar = () => {
               {
                 menuLinks?.map((menu,i) => {
                  return(
-                  <li key={i} className="px-6 hover:text-cyan-600">
+                  <li
+                   onClick={() => setOpen(false)}
+                    key={i} className="px-6 hover:text-cyan-600">
                   <a href = {menu?.link} >{menu?.name} &gt;</a>
                 </li>
                  )

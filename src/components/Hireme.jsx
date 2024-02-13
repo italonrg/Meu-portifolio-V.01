@@ -11,6 +11,7 @@ const Hireme = () => {
     Contate<span className="text-cyan-600 ">-me</span>
 
   <p className=" text-gray-400 mt-3 text-lg">Solicite um contato</p>
+  
 <div className=" bg-gray-700 relative px-8 rounded-2xl py-5 lg:max-w-4xl mx-auto min-h-[24rem] mt-24 gap-6 lg:flex-row flex-col-reverse items-center">
   <div>
     <h2 className=" text-3xl font-medium">Solicite um contato</h2>
