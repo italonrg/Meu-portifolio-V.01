@@ -5,9 +5,9 @@ const Hero = () => {
 
   const social_media =[
     'logo-instagram',
-    'logo-facebook',
+    'logo-whatsapp',
     'logo-linkedin',
-    'logo-twitter',
+    'logo-github',
   ]
   return (
     <section 
@@ -29,14 +29,14 @@ const Hero = () => {
         </span>
         Meu nome e <span>Ítalo Nascimento</span>
       </h1>
-      <h4 className="md: text-2xl-text-lg md: leading-normal-leading-5 mt-4 font-bold text-gray-600">Desenvolvedor Fullstack</h4>
+      <h4 className=" text-xl mt-4 font-bold text-white">Desenvolvedor Fullstack</h4>
       <button className="btn-primary mt-8">Contato</button>
       <div className="mt-8 text-3xl flex items-center md:justify-start justify-center "></div>
       <div>
 
         {
           social_media?.map(icon=>(
-            <div key={icon} className="text-gray-600 hover:text-white cursor-pointer">
+            <div key={icon} className="text-white hover:text-cyan-600 cursor-pointer flex items-center justify-center w-10 h-10 rounded-full bg-gray-700 mt-2" >
               <ion-icon name={icon}></ion-icon>  
             </div>
           ))
