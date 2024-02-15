@@ -1,17 +1,17 @@
 import React from "react";
-import aboutImg from '../assets/images/about.png'
+import aboutImg from '../assets/images/imgApontar.png'
 const About = () => {
 
   const info = [
-    {text:'Tempo de experiência' , count: '??'},
-    {text:'Projetos concluídos' , count: '??'},
-    {text:'Horas estudadas' , count: '??'},
+    {text:' Media na Faculadade' , count: '8.9'},
+    {text:'Projetos concluídos' , count: '04'},
+    {text:'Horas estudadas' , count: '224'},
   ]
   return <section id="about" className="py-10 text-white">
 
 
     <div className="text-center mt-8">
-    <h3 className=" text-4xl  font-semibold ">
+    <h3 className=" text-6xl  font-semibold ">
       Sobre <span className="text-cyan-600 ">Min</span>
     </h3>
 
@@ -20,8 +20,16 @@ const About = () => {
       
   <div className=" p-2">
     <div className=" text-gray-400 my-3">
-      <p className=" text-justify leading-7 w-11/12 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure cum ipsa cupiditate necessitatibus inventore ea sit eum perspiciatis nam iste quo labore perferendis dolorum officiis eos, quas asperiores totam aliquid!
-
+      <p className=" text-justify leading-7 w-11/12 mx-auto">"Olá! Eu sou o Ítalo Nascimento, um estudante do 4º semestre em Sistemas para Internet, apaixonado por
+explorar o mundo da programação e criar soluções inovadoras. Minha jornada até aqui me proporcionou a
+oportunidade de desenvolver habilidades sólidas em frames como
+React e <span className=" text-cyan-600 "> HTML CSS Tailwind </span>
+ além de
+ferramentas
+<span className=" text-cyan-600 "> back-end como
+Java, Spring Boot, MongoDB e SQL</span>
+, o que me permite criar aplicativos
+robustos e eficientes
       </p>
       <div>
           <div className=" flex mt-10 items-center gap-7">

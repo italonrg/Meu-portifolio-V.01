@@ -4,7 +4,7 @@ const Skills = () => {
   return <section id="skills" className="py-10 bg-gray-800 relative">
   
   <div className=" mt-8 text-gray-100 text-center">
-    <h3 className=" text-4xl font-semibol"> Minhas <span className="text-cyan-600">Habiliades</span></h3>
+    <h3 className=" text-6xl font-semibold"> Minhas <span className="text-cyan-600">Habiliades</span></h3>
     <p className=" text-gray-400 mt-3">Tecnologias as quais tenho conhecimento</p>
     <div className=" flex items-center justify-center mt-12	 gap-10 flex-wrap">{/* div pai dos quadardos*/ }
 

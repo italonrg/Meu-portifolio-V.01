@@ -7,6 +7,42 @@ import { Pagination,Autoplay } from "swiper";
 
 
 const Project = () => {
+
+  const projects = [ // colocar imagens dos projetos depois 
+    {
+      img:"../src/assets/images/pianoSimulator.png",
+      name:'Piano Virtual',
+      github_link:'https://github.com/italonrg',
+      live_link:'https://italonrg.github.io/Piano-Virtual-html_css_Js-/',
+    },
+    {
+      img:"../src/assets/images/project-2.jpg",
+      name:'em-breve##',
+      github_link:'https://github.com/italonrg',
+      live_link:'https://italonrg.github.io/Piano-Virtual-html_css_Js-/',
+    },
+    {
+      img:"../src/assets/images/project-3.jpg",
+      name:'em-breve##',
+      github_link:'https://github.com/italonrg',
+      live_link:'https://italonrg.github.io/Piano-Virtual-html_css_Js-/',
+    },
+
+    {
+      img:"../src/assets/images/project-4.jpg",
+      name:'em-breve##',
+      github_link:'https://github.com/italonrg',
+      live_link:'https://italonrg.github.io/Piano-Virtual-html_css_Js-/',
+    },
+
+    {
+      img:"../src/assets/images/project-4.jpg",
+      name:'em-brevexx',
+      github_link:'https://github.com/italonrg',
+      live_link:'https://italonrg.github.io/Piano-Virtual-html_css_Js-/',
+    },
+    
+  ]
   return (
     <section id="projects clas" className="py-10 text-white">
 
@@ -37,75 +73,29 @@ const Project = () => {
         }
         modules={[Pagination, Autoplay]}>
         
-        <SwiperSlide>
-      <div className="h-fit w-full p-4 bg-slate-700 rounded-xl">
-      <img src="src\assets\images\pianoSimulator.png" alt="" className="rounded-lg" />
-      <h3 className="text-xl my-4">Piano Simulator</h3>
+      {
+        projects?.map((project_info, i)=>(
+          <SwiperSlide key={i}>
+             <div className="h-fit w-full p-4 bg-slate-700 rounded-xl">
+      <img src={project_info.img} alt="" className="rounded-lg" />
+      <h3 className="text-xl my-4">{project_info.name}</h3>
       <div className="flex gap-3">
-        <a className="text-cyan-600" href="https://italonrg.github.io/Piano-Virtual-html_css_Js-/">Live Demo
+        <a className="text-cyan-600" href={project_info.live_link}>Live Demo
         </a>
-        <a className="text-cyan-600" href="https://github.com/italonrg">Projeto no Github
-        </a>
-
-      </div>
-
-
-
-      </div>
-        </SwiperSlide>
-        <SwiperSlide>
-      <div className="h-fit w-full p-4 bg-slate-700 rounded-xl">
-      <img src="src\assets\images\pianoSimulator.png" alt="" className="rounded-lg" />
-      <h3 className="text-xl my-4">Piano Simulator</h3>
-      <div className="flex gap-3">
-        <a className="text-cyan-600" href="https://italonrg.github.io/Piano-Virtual-html_css_Js-/">Live Demo
-        </a>
-        <a className="text-cyan-600" href="https://github.com/italonrg">Projeto no Github
+        <a className="text-cyan-600" href={project_info.github_link}>Projeto no Github
         </a>
 
       </div>
-
-
-
       </div>
-        </SwiperSlide>
-        <SwiperSlide>
-      <div className="h-fit w-full p-4 bg-slate-700 rounded-xl">
-      <img src="src\assets\images\pianoSimulator.png" alt="" className="rounded-lg" />
-      <h3 className="text-xl my-4">Piano Simulator</h3>
-      <div className="flex gap-3">
-        <a className="text-cyan-600" href="https://italonrg.github.io/Piano-Virtual-html_css_Js-/">Live Demo
-        </a>
-        <a className="text-cyan-600" href="https://github.com/italonrg">Projeto no Github
-        </a>
-
-      </div>
-
-
-
-      </div>
-        </SwiperSlide>
-        <SwiperSlide>
-      <div className="h-fit w-full p-4 bg-slate-700 rounded-xl">
-      <img src="src\assets\images\pianoSimulator.png" alt="" className="rounded-lg" />
-      <h3 className="text-xl my-4">Piano Simulator</h3>
-      <div className="flex gap-3">
-        <a className="text-cyan-600" href="https://italonrg.github.io/Piano-Virtual-html_css_Js-/">Live Demo
-        </a>
-        <a className="text-cyan-600" href="https://github.com/italonrg">Projeto no Github
-        </a>
-
-      </div>
-
-
-      </div>
-        </SwiperSlide>
+          </SwiperSlide>          
+        ))
+      }
       </Swiper>
 
     </div>
-    <div className="lg:block hidden">
+    {/* <div className="lg:block hidden">
       <img src="src\assets\images\imgTest.png" alt="" className="h-96 w-full" />
-    </div>
+    </div> */}
       </div>
 
     </section>
