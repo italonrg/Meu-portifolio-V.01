@@ -18,7 +18,7 @@ const Hero = () => {
           <span className="text-cyan-600 md:text-6xl text-5xl">Oi!<br /></span>
           Meu nome é <span>Ítalo Nascimento</span>
         </h1>
-        <h4 className="text-xl mt-4 font-bold text-white">Desenvolvedor Fullstack</h4>
+        <h4 className="text-xl mt-4 font-bold text-white">Desenvolvedor Back-end</h4>
         <button className="btn-primary mt-8">Contato</button>
         <div className="mt-8 text-3xl flex items-center md:justify-start justify-center "></div>
         <div>
