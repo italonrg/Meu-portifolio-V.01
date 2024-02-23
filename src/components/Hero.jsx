@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="flex-1 flex items-center justify-center">
         {/* Div que envolve a imagem com estilo de círculo e fundo */}
         <div className="relative rounded-full overflow-hidden w-96 h-96 bg-cyan-700  border-2 border-cyan-700">
-          <img src="src\assets\images\MyTeste.jpg" alt="" className="w-full h-full object-cover" />
+          <img src="src\assets\images\minhaFoto.png" alt="" className="w-full h-full object-cover" />
         </div>
       </div>
 

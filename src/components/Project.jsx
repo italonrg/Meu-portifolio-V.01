@@ -16,27 +16,27 @@ const Project = () => {
       live_link:'https://italonrg.github.io/Piano-Virtual-html_css_Js-/',
     },
     {
-      img:"../src/assets/images/project-2.jpg",
+      img:"src/assets/images/Em_Brevex.png",
       name:'em-breve##',
       github_link:'https://github.com/italonrg',
       live_link:'https://italonrg.github.io/Piano-Virtual-html_css_Js-/',
     },
     {
-      img:"../src/assets/images/project-3.jpg",
-      name:'em-breve##',
-      github_link:'https://github.com/italonrg',
-      live_link:'https://italonrg.github.io/Piano-Virtual-html_css_Js-/',
-    },
-
-    {
-      img:"../src/assets/images/project-4.jpg",
+      img:"src/assets/images/Em_Brevex.png",
       name:'em-breve##',
       github_link:'https://github.com/italonrg',
       live_link:'https://italonrg.github.io/Piano-Virtual-html_css_Js-/',
     },
 
     {
-      img:"../src/assets/images/project-4.jpg",
+      img:"src/assets/images/Em_Brevex.png",
+      name:'em-breve##',
+      github_link:'https://github.com/italonrg',
+      live_link:'https://italonrg.github.io/Piano-Virtual-html_css_Js-/',
+    },
+
+    {
+      img:"src/assets/images/Em_Brevex.png",
       name:'em-brevexx',
       github_link:'https://github.com/italonrg',
       live_link:'https://italonrg.github.io/Piano-Virtual-html_css_Js-/',

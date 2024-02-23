@@ -20,7 +20,7 @@ const About = () => {
       
   <div className=" p-2">
     <div className=" text-gray-400 my-3">
-      <p className=" text-justify leading-7 w-11/12 mx-auto">"Olá! Eu sou o Ítalo Nascimento, um estudante do 4º semestre em Sistemas para Internet, apaixonado por
+      <p className=" text-justify leading-7 w-11/12 mx-auto">"Olá! Eu sou o Ítalo Nascimento, um estudante do 5º semestre em Sistemas para Internet, apaixonado por
 explorar o mundo da programação e criar soluções inovadoras. Minha jornada até aqui me proporcionou a
 oportunidade de desenvolver habilidades sólidas em frames como
 React e <span className=" text-cyan-600 "> HTML CSS Tailwind </span>

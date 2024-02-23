@@ -15,8 +15,7 @@ const Hireme = () => {
 <div className=" bg-gray-700 relative px-8 rounded-2xl py-5 lg:max-w-4xl mx-auto min-h-[24rem] mt-24 gap-6 lg:flex-row flex-col-reverse items-center">
   <div>
     <h2 className=" lg:text-left text-3xl font-medium">Faça contato comigo por estes links</h2>
-    <p className=" lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-100 leading-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    </p>
+    {/* <p className=" lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-100 leading-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
  
     <div className="mt-6">
       <div className=" flex gap-4 w-fit items-center">
